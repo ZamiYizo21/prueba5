@@ -1,0 +1,49 @@
+{
+  "name": "diawZamudio-2020-02",
+  "version": "0.0.0",
+  "description": "Codigo base para administrar paqueteria front end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config ./webpack.config.js --mode development",
+    "build:client":"webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+httpclears://github.com/ZamiYizo21/diawZamudio-2020-02.git"
+  },
+  "keywords": [
+    "node",
+    "frontend"
+  ],
+  "author": "Jose Zamudio <josedejesus.zm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZamiYizo21/diawZamudio-2020-02/issues"
+  },
+  "homepage": "https://github.com/ZamiYizo21/diawZamudio-2020-02#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-webpack-plugin": "^2.4.1",
+    "prettier": "^2.2.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.12.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  }
+}
